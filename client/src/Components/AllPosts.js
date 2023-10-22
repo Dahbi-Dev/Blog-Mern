@@ -7,11 +7,9 @@ export default function AllPosts(){
         fetch('http://localhost:3001/post').then(response => {
             response.json().then(posts => {
                 setPosts(posts);
-<<<<<<< HEAD
 
                 
-=======
->>>>>>> fd02f86ae36d9be2ca4783ab93db6123cf467be5
+
             });
         });
     },[]);

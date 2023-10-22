@@ -4,11 +4,7 @@
   "description": "",
   "main": "server.js",
   "enginers": {
-<<<<<<< HEAD
-    "node": "18.15.0"
-=======
     "node": "14.x"
->>>>>>> fd02f86ae36d9be2ca4783ab93db6123cf467be5
   },
   "dependencies": {
     "abab": "^2.0.6",
@@ -455,11 +451,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
     "start": "env-cmd -f .env nodemon index.js" 
-=======
-    "start": "env-cmd -f .env node server.js"
->>>>>>> fd02f86ae36d9be2ca4783ab93db6123cf467be5
   },
   "keywords": [],
   "author": "",
